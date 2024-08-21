@@ -9,7 +9,6 @@ class GroupedSelect2Field extends GroupedDropdownField
 {
     public function Field($properties = array())
     {
-        Requirements::javascript('silverstripe/admin: thirdparty/jquery/jquery.js');
         Requirements::javascript('silverstripe/admin: thirdparty/jquery-entwine/jquery.entwine.js');
         Requirements::javascript('sheadawson/silverstripe-select2: select2/select2.js');
         Requirements::javascript('sheadawson/silverstripe-select2: javascript/ajaxselect2.init.js');
